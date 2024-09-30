@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--Inizio navbar-->
+    <nav class="container-fluid navbar-custom bg-danger fixed-top text-center">
+        <div class="row pe-5 justify-content-center">
+            <form class="d-flex" role="search">
+                <input class barra-ricerca="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+                <button class="btn btn-outline-warning" type="submit">Cerca</button>
+              </form>
+            <div class="col-3 align-items-center d-flex">
+                <div class="col 10">
+                    <h1>Pizza Smile</h1>
+                    <img src="/assets/smile pizzeria.png" class="logo ms-auto">
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+ <!--Fine navbar-->
+    
+
+<!--Inizio menù pizze-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <main>
+            <h2>MENU'</h2>
+            <hr>
+            <h3>Pizze</h3>
+            <div>
+                <button class carousel="carousel-control-prev" 
+                type="button" data-bs-target="#carousel1" 
+                data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" 
+                aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+            </div>
+            <div class="row justify-content-between text-center">
+                <div class="col-12 col-sm-2 col-lg-3 ">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/pizza margherita.webp" alt="">
+                    <h4 class="calistoga-regular">Margherita</h4>
+                    <p> Pomodoro, Fior di latte, Basilico</p>
+                </div>
+                <div class="col-12 col-sm-2 col-lg-3">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/pizza4 formaggi.jpg" alt="">
+                    <h4 class="calistoga-regular">Quattro formaggi</h4>
+                    <p>Mozzarella, fontina, emmental e gorgonzola</p>
+                </div>
+                <div class="col-12 col-sm-2 col-lg-3">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/pizza golosona.jpg" alt="">
+                    <h4 class="calistoga-regular">Golosona</h4>
+                    <p>Fior di Latte, Crema di pistacchio, Mortadella, Granella di Pistacchio, Stracciatella</p>
+                </div>
+            </div>
+
+             <div>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> 
+<!--Fine menù pizze-->
+
+<!--Inizio menù panzerotti forno-->
+            <hr>
+            <h3>Panzerotti al forno</h3>
+            <div class="row justify-content-between text-center">
+                <div class="col-12 col-sm-2 col-lg-3 ">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/panzerotto classico.jpg" alt="">
+                    <h4 class="calistoga-regular">Classico</h4>
+                    <p> Pomodoro, Fior di latte, Olio extra vergine d'oliva,
+                        Basilico</p>
+                </div>
+                <div class="col-12 col-sm-2 col-lg-3">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/panzerotto cotto.jpg" alt="">
+                    <h4 class="calistoga-regular">Prosciutto cotto</h4>
+                    <p>Fior di latte, pomodoro, prosciutto cotto, olio extra vergine d'oliva</p>
+                </div>
+                <div class="col-12 col-sm-2 col-lg-3">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/panzerotto classico.jpg" alt="">
+                    <h4 class="calistoga-regular">A vostra scelta</h4>
+                    <div>
+                        <label for="">Richiesta</label>
+                        <div class="box"></div>
+                        <input type="text" class="formCostum">
+                    </div>
+
+                    <div>
+                        <button type="submit">INVIA</button>
+                    </div>
+
+                </div>
+            </div>
+<!--Fine menù panzerotti forno-->
+
+<!--Inizio menù panzerotti fritti-->
+            <hr>
+            <h3>Panzerotti fritti</h3>
+            <div class="row justify-content-between text-center">
+                <div class="col-12 col-sm-2 col-lg-3 ">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/576680325b52730be05c1dee3e47eb53.jpg">
+                    <h4 class="calistoga-regular">Classico</h4>
+                    <p> Pomodoro, Fior di latte, Olio extra vergine d'oliva,
+                        Basilico</p>
+                </div>
+                <div class="col-12 col-sm-2 col-lg-3">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/panzerotto fritto cotto.jpg" alt="">
+                    <h4 class="calistoga-regular">Prosciutto cotto</h4>
+                    <p>Fior di latte, pomodoro, prosciutto cotto, olio extra vergine d'oliva</p>
+                </div>
+                <div class="col-12 col-sm-2 col-lg-3">
+                    <img class="my-2 img-fluid rounded-circle" src="/assets/fritto libero.jpg" alt="">
+                    <h4 class="calistoga-regular">A vostra scelta</h4>
+                    <div>
+                        <label for="">Richiesta</label>
+                         <div class="box">
+                    </div>
+                    <input type="text" class="formCostum">
+                </div>
+
+                <div>
+                    <button type="submit">INVIA</button>
+                </div>
+
+            </div>
+    </div>
+<!--Fine menù panzerotti fritti-->
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">
+            
+                <div class="card text-bg-dark">
+                    <img src="https//picsum.photos/1000" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nulla consequatur qui hic laudantium accusantium molestiasipsa!</p>
+                    </div>
+                  </div>
+
+
+
+            </div>
+        </div> 
+    </div  
+ </footer>
+ </footer>
+
+    <div style="height: 2000px;"></div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+
+</html>
